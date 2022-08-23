@@ -13,7 +13,7 @@ public class FeedbackDTO {
     private String textoFeedback;
     private Long formadorId;
     private Long respostaId;
-
+//a
     public FeedbackDTO(Feedback f){
         this.id= f.getId();
         this.textoFeedback= f.getTextoFeedback();
